@@ -1,0 +1,33 @@
+
+@font-face {
+    font-family: 'games';
+    src: url('../../fonts/Whitestone.otf') format('opentype');
+}
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:20vh;
+    width: 100vw;
+}
+.nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 10vh;
+    
+}
+.nav ul li{
+    margin-left: 10vh;
+    list-style: none;
+    
+}
+.nav ul li a{
+    font-family: 'games';
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+.nav ul li a:hover{
+    color:rgb(100, 100, 100)
+}

@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'pokes';
+    src: url('../../fonts/retro.ttf') format('truetype');
+}
+
+.card{
+    font-family: pokes;
+    color: black;
+    text-decoration:none !important;
+    margin:25px;
+}  
+
+.card:hover .pokemonImg{
+    transform: scale(1.5);
+    transition-duration: 500ms;
+}
+
+.card:hover{
+    cursor: pointer;
+}
+
+.pokemonImg{
+    width: 150px;
+    height: 150px;
+}
+
+.button{
+    display: block;
+}
+
+.tiposImg{
+    margin-top: -50px;
+    width:50px;
+    height: 50px;
+}
+
+

@@ -1,0 +1,76 @@
+.containerBarra{
+    background-color: rgb(98, 98, 98);;
+    width: 100vw;
+    position: absolute;
+    left: 0;
+}
+.mostrar{
+    background-color: rgb(98, 98, 98);
+    width: 100vw;
+    display: flex;
+    height: 120px;
+}
+.mostrar button{
+    text-decoration: none;
+    background-color: rgb(98, 98, 98);
+    border: none;
+    color: white;
+    align-self: flex-end    ;
+}
+.containerBarra div form{
+    display: none;
+}
+.containerBarra button{
+    text-decoration: none;
+    background-color: rgb(98, 98, 98);
+    border: none;
+    color: white;
+}
+.buscar{
+    color:rgb(171, 169, 169);
+}
+.buscar label{
+    display: inline-block;
+    width: 400px;
+}
+
+.buscar .input{
+    color:white;
+    text-align: center;
+    width: 200px;
+    display: inline-block;
+    background: rgb(37, 37, 37);
+    border: none;
+}
+.buscar .button{
+    color:white;
+    display: inline;
+    background: rgb(53, 53, 53);
+    border: none;
+}
+.buscar .button:hover{
+    color:white;
+    display: inline;
+    background: rgb(19, 19, 19);
+    border: none;
+}
+.flecha{
+    align-self: center;
+    display: block;
+    width: 100vw;
+    margin: auto;
+    background-color: rgb(19, 19, 19);
+    border: none;
+}
+.flecha button{
+    align-self: center;
+    display: block;
+    color:white;
+    width: 100vw;
+    margin: auto;
+    background-color: rgb(19, 19, 19);
+}
+
+.flecha button:active{
+ transform: rotate(180deg);
+}

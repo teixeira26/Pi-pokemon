@@ -1,0 +1,190 @@
+@font-face {
+    font-family: 'pokedex';
+    src: url('../../fonts/Pixeled.ttf') format('truetype');
+}
+
+
+.pokedexContainer{
+    position: absolute;
+    top:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.pokedex{
+    position: absolute;
+    top:0;
+    width:60vw;
+    height: 100vh;
+    z-index: 1;
+    margin-top: 0;
+}
+
+.pokeImg{
+    position: absolute;
+    top: 28%;
+    right: 58%;
+    width: 14%;
+    z-index: 11;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);
+}
+
+.nombre{
+    width: 7%;
+    position: absolute;
+    right: 65%;
+    top:83%;
+    z-index: 11;
+    color: white;
+    font-size: 10px;
+    font-family: pokedex;
+    
+}
+.cuadrado2{
+    width: 140px;
+    height: 70px;
+    position: absolute;
+    top:82%;
+    right: 63%;
+    z-index: 7;
+    background-color: rgb(92, 177, 118);
+    border-radius: 10px;
+}
+.cuadrado{
+    width: 262px;
+    height: 128px;
+    position: absolute;
+    top:28;
+    right: 24%;
+    z-index: 7;
+    background-color: black;
+    border-radius: 20px;
+}
+
+.fuerza{
+    width: 3%;
+    position: absolute;
+    right: 40%;
+    top:40%;
+    z-index: 11;
+    color: white;
+    font-family: pokedex;
+    font-size: 10px;
+}
+.velocidad{
+    width: 3%;
+    position: absolute;
+    right: 40%;
+    top:37%;
+    z-index: 11;
+    color: white;
+    font-family: pokedex;
+    font-size: 10px;
+}
+.tipo{
+    width: 3%;
+    position: absolute;
+    right: 40%;
+    top:43%;
+    z-index: 11;
+    color: white;
+    font-family: pokedex;
+    font-size: 10px;
+}
+.defensa{
+    width: 3%;
+    position: absolute;
+    right: 40%;
+    top:34%;
+    z-index: 11;
+    color: white;
+    font-family: pokedex;
+    font-size: 10px;
+}
+
+.vida{
+    width: 3%;
+    position: absolute;
+    right: 40%;
+    top:31%;
+    z-index: 11;
+    color: white;
+    font-family: pokedex;
+    font-size: 10px;
+}
+.peso{
+    width: 3%;
+    position: absolute;
+    right: 40%;
+    top:31%;
+    z-index: 11;
+    color: white;
+    font-family: pokedex;
+    font-size: 10px;
+}
+.cuadrado2{
+    width: 120px;
+    height: 40px;
+    position: absolute;
+    top:85%;
+    right: 35%;
+    z-index: 7;
+    background-color: black;
+    border-radius: 10px;
+}
+.altura{
+    position: absolute;
+    right: 37%;
+    top:84%;
+    z-index: 11;
+    color: white;
+    font-family: pokedex;
+    font-size: 10px;
+}
+.cuadrado4{
+    width: 120px;
+    height: 40px;
+    position: absolute;
+    top:85%;
+    right: 24%;
+    z-index: 7;
+    background-color: black;
+    border-radius: 10px;
+}
+.peso{
+    position: absolute;
+    right: 29%;
+    top:84%;
+    z-index: 11;
+    color: white;
+    font-family: pokedex;
+    font-size: 10px;
+}
+.cerrar{
+    width: 60px;
+    text-align: center;
+    position: absolute;
+    top:3%;
+    cursor: pointer;
+    right: 72%;
+    z-index: 7;
+    font-size: 20px;
+    font-family: pokedex;
+    text-decoration: none;
+    color:white;
+    background-color: rgba(22,22,22, 0.4);
+    border-radius: 50%;
+}
+.fondoImg{
+    position: absolute;
+    top:28%;
+    left: 25%;
+    width: 250px;
+    height: 180px;
+    z-index: 5;
+    border-radius: 20px;
+}
